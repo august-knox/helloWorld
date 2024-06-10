@@ -1,5 +1,6 @@
-CC=gcc
-CFLAGS=-I.
-install: helloWorld.c
-	$(CC) -o helloWorld helloWorld.c
-	install helloWorld
+
+all : helloWorld.c
+	gcc -o hw helloWorld.c
+
+clean :
+	rm hw
