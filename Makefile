@@ -1,6 +1,6 @@
 
 all : helloWorld.c
-	gcc -o hw helloWorld.c
+	gcc -o helloworld helloWorld.c
 
 clean :
-	rm hw
+	rm helloworld
