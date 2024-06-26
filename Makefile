@@ -1,4 +1,4 @@
-export LD_LIBRARY_PATH=/usr/workspace/knox10/testPackage/helloWorld/lib64:$LD_LIBRARY_PATH
+#export LD_LIBRARY_PATH=/usr/workspace/knox10/testPackage/helloWorld/lib64:$LD_LIBRARY_PATH
 CC=gcc
 CALIPER_PATH = /usr/workspace/knox10/testPackage/helloWorld
 CALIPER_LIBS = -L$(CALIPER_PATH)/lib64 -lcaliper
